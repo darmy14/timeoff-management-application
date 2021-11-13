@@ -27,8 +27,8 @@ RUN apk add --no-cache \
     make \
     gcc \
     musl-dev \
-    python2 \
     nodejs npm \
+    python2 \
     vim
     
 RUN adduser --system app --home /app
